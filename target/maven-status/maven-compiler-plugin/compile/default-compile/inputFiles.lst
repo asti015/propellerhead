@@ -1,0 +1,9 @@
+/home/ana.stilinovic/projects/spring-boot-jdbc-example/src/main/java/model/Customerold.java
+/home/ana.stilinovic/projects/spring-boot-jdbc-example/src/main/java/model/ProductRecord.java
+/home/ana.stilinovic/projects/spring-boot-jdbc-example/src/main/java/model/OrderedProduct.java
+/home/ana.stilinovic/projects/spring-boot-jdbc-example/src/main/java/com/mkyong/SpringBootConsoleApplication.java
+/home/ana.stilinovic/projects/spring-boot-jdbc-example/src/main/java/com/mkyong/dao/CustomerRecordRepository.java
+/home/ana.stilinovic/projects/spring-boot-jdbc-example/src/main/java/model/CustomerRecord.java
+/home/ana.stilinovic/projects/spring-boot-jdbc-example/src/main/java/model/OrderRecord.java
+/home/ana.stilinovic/projects/spring-boot-jdbc-example/src/main/java/com/mkyong/dao/ProductRecordRepository.java
+/home/ana.stilinovic/projects/spring-boot-jdbc-example/src/main/java/com/mkyong/dao/OrderRecordRepository.java
