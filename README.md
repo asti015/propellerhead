@@ -19,4 +19,10 @@ The following has been coded up until now:
   to create the table.
   
 Unfortunately i have also run out of time to connect the web end with the service to pull the data out directly.   
+
+UPDATE:
+Project structure has been fixed and front end table is populated with the data from the database.
+Please create the database manually before running the code.
+CREATE DATABASE customerOrderSystem;
+also application.properties file needs to be changed to configure mysql database access.
   
