@@ -4,7 +4,7 @@ INSERT INTO customerRecord(name,address,email,phone)VALUES('cakes R us','2454 Gr
 INSERT INTO productRecord(productNumber,description,itemPrice)VALUES('Su01', 'Sugar', 0.85);
 INSERT INTO productRecord(productNumber,description,itemPrice)VALUES('101', 'White Sugar', 0.75);
 INSERT INTO productRecord(productNumber,description,itemPrice)VALUES('102', 'Brown Sugar', 0.99);
-INSERT INTO orderRecord(orderNumber,orderStatus,customerRecordId,creationTime,customerName)VALUES('A111', 'processing', 1, '2017-07-12 11:55:45', 'tiptop');
+INSERT INTO orderRecord(orderNumber,orderStatus,customerRecordId,creationTime,customerName)VALUES('A111', 'processing', 2, '2017-07-12 11:55:45', 'tiptop');
 INSERT INTO orderRecord(orderNumber,orderStatus,customerRecordId,creationTime,customerName)VALUES('A112', 'created', 1, '2017-07-12 12:00:12', 'bakery');
 INSERT INTO orderedProduct(orderRecord,product,quantity,totalPrice)VALUES(1, 2,50,37.50);
 INSERT INTO orderedProduct(orderRecord,product,quantity,totalPrice)VALUES(1, 1,100,85.00);

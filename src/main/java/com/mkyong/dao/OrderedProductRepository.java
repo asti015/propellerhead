@@ -15,6 +15,12 @@ public class OrderedProductRepository {
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 
+
+	/**
+	 * Returns a list of all {@link OrderedProductRecord}s present in the database.
+	 * 
+	 * @return a list of all {@link OrderedProductRecord}s present in the database.
+	 */
 	public List<OrderedProductRecord> findAll() {
 
 		List<OrderedProductRecord> result = new ArrayList<OrderedProductRecord>();

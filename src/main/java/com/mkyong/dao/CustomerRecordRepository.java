@@ -15,6 +15,11 @@ public class CustomerRecordRepository {
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 
+	/**
+	 * Returns a list of all {@link CustomerRecord}s present in the database.
+	 * 
+	 * @return a list of all {@link CustomerRecord}s present in the database.
+	 */
 	public List<CustomerRecord> findAll() {
 
 		List<CustomerRecord> result = jdbcTemplate.query(

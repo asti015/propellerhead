@@ -1,5 +1,10 @@
 package model;
 
+/**
+ * Bean object for an product record.
+ * 
+ * @author ana.stilinovic
+ */
 public class ProductRecord {
 
 	private int id;

@@ -16,6 +16,11 @@ public class ProductRecordRepository {
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 
+	/**
+	 * Returns a list of all {@link ProductRecord}s present in the database.
+	 * 
+	 * @return a list of all {@link ProductRecord}s present in the database.
+	 */
 	public List<ProductRecord> findAll() {
 
 		List<ProductRecord> result = new ArrayList<ProductRecord>();
